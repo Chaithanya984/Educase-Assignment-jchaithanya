@@ -23,7 +23,7 @@ The objective of this project is to build a responsive and user-friendly fronten
 
 The application uses React Router for client-side routing with the following paths:
 
-- `/landingpage` — Landing page
+- `/` — Landing page
 - `/signup` — Signup page where users can create a new account
 - `/login` — Login page for existing users
 - `/profile` — Profile page displaying user details

@@ -10,7 +10,7 @@ import Profile from "./Components/Profile";
 const App = () => (
   <div className="App">
     <Switch>
-      <Route path="/landingpage" component={Landingpage} />
+      <Route path="/" component={Landingpage} />
       <Route exact path="/login" component={Login} />
       <Route exact path="/signup" component={Signup} />
       <Route exact path="/profile" component={Profile} />

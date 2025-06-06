@@ -11,6 +11,7 @@ const Landingpage = (props) => {
     history.push("/signup");
   };
 
+  /* In this page User clicks to create a new account or log in with an existing account */
   return (
     <div className="main-bg-of-mobile">
       <div className="sub-mobile-bg">
@@ -22,8 +23,6 @@ const Landingpage = (props) => {
             </p>
           </div>
           <div className="but-cont">
-            /* User clicks here to create a new account or log in with an
-            existing account */
             <button className="landing-buttons" onClick={callngtocreate}>
               Created Account
             </button>
