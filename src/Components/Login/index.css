@@ -1,0 +1,78 @@
+.log-main-bg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.log-sub-bg {
+  min-height: 100vh;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f7f8f9;
+  background-color: #f7f8f9;
+  box-shadow: 1px 2px 4px black;
+  width: 80%;
+
+  padding: 25px;
+  padding-bottom: 35px;
+}
+.sign-head {
+  font-family: "Rubik";
+  font-size: 28px;
+  font-weight: 500;
+}
+.sign-para {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.form-cont {
+  width: 100%;
+}
+.form-input-one {
+  width: 100%;
+
+  position: relative;
+}
+.log-input-box {
+  height: 40px;
+
+  width: 95%;
+
+  padding-left: 10px;
+  font-family: Rubik;
+  border-radius: 6px;
+  border-width: 1.5px;
+}
+.log-label-box {
+  position: relative;
+  background-color: white;
+  top: 0.6rem;
+  left: 1rem;
+  color: blue;
+  font-family: Rubik;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.Log-but {
+  width: 100%;
+  margin-top: 14px;
+  height: 46px;
+  border-radius: 6px;
+  background-color: #cbcbcb;
+  font-family: Rubik;
+  font-weight: 500;
+  color: white;
+  border-width: 0px;
+}
+@media (min-width: 420px) {
+  .log-sub-bg {
+    width: 375px;
+  }
+}

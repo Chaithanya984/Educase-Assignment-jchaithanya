@@ -1,3 +1,47 @@
+# Project Title: PopX Frontend Project (Educase Assignment)
+
+# Objective
+
+The objective of this project is to build a responsive and user-friendly frontend application that includes client-side routing. Using this routing, users can navigate between pages to create a new account, log in with existing credentials, and view their profile page.
+
+# Tech Stack
+
+- HTML
+- css
+- JAVASCRIPT
+- REACT
+
+# Features
+
+- Responsive design with media queries
+- Client-side routing with React Router
+- Signup and login page UI
+- Profile page display
+- Navigation between pages via routing
+
+## Navigation / Routing Paths
+
+The application uses React Router for client-side routing with the following paths:
+
+- `/landingpage` — Landing page
+- `/signup` — Signup page where users can create a new account
+- `/login` — Login page for existing users
+- `/profile` — Profile page displaying user details
+
+## Installation
+
+To run this project install dependencies and start the server:
+
+# Install dependencies:
+
+    npm install
+
+# Start the development server:
+
+    npm start
+
+# Project Live url
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,101 @@
+.profile-main-bg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.profile-sub-bg {
+  min-height: 100vh;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f7f8f9;
+  background-color: #f7f8f9;
+  box-shadow: 1px 2px 4px black;
+  width: 80%;
+
+  padding-bottom: 35px;
+}
+.head-box-account {
+  background-color: white;
+  padding: 15px;
+}
+.head-account-profile {
+  font-size: 18px;
+  font-family: Rubik;
+  font-weight: 400;
+  color: #1d2226;
+}
+
+.profile-cont {
+  padding: 15px;
+}
+
+.profile-direction {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.profile-img {
+  height: 80px;
+  background-color: red;
+  width: 80px;
+  border-radius: 80px;
+  position: relative;
+}
+.image-fix {
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+}
+
+.group-icon {
+  position: absolute;
+  bottom: 0;
+  height: 25px;
+  width: 25px;
+  right: -4px;
+}
+
+.profile-details {
+  margin-left: 20px;
+  align-self: flex-start;
+}
+.usname-head {
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 500;
+}
+.usemail-para {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+}
+.para-cont-fix {
+  padding-left: 20px;
+  padding-right: 18px;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Rubik;
+}
+.hr-cont {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+hr {
+  width: 100%;
+  border-top: 2px dashed #999;
+  height: 0;
+}
+@media (min-width: 420px) {
+  .profile-sub-bg {
+    width: 375px;
+  }
+}

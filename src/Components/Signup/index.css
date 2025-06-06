@@ -1,0 +1,109 @@
+.sign-in-main-bg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sign-in-sub-bg {
+  min-height: 100vh;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f7f8f9;
+  background-color: #f7f8f9;
+  box-shadow: 1px 2px 4px black;
+  width: 80%;
+
+  padding: 25px;
+  padding-bottom: 35px;
+}
+
+.sigin-heading {
+  font-family: "Rubik";
+  font-size: 28px;
+  font-weight: 500;
+  color: #1d2226;
+}
+
+.form-signin {
+  width: 100%;
+  margin-bottom: 50%;
+}
+
+.form-signin-input-one {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-text {
+  height: 40px;
+
+  width: 95%;
+
+  padding-left: 10px;
+  font-family: Rubik;
+  border-radius: 6px;
+  border-width: 1.5px;
+}
+.span-fix {
+  color: #dd4a3d;
+}
+.make-row-radio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.fixing-position-radio {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  margin-right: 12px;
+}
+.input-label {
+  position: relative;
+  background-color: white;
+  top: 0.6rem;
+  left: 1rem;
+  color: #6c25ff;
+  font-family: Rubik;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.head-agency {
+  font-family: Rubik;
+  font-size: 13px;
+  font-weight: 400;
+  color: #1d2226;
+}
+.inp-radio {
+  width: 22px;
+  height: 22px;
+}
+.inp-radio-label {
+  font-family: Rubik;
+  font-size: 14px;
+}
+.but-cont-radio {
+  width: 100%;
+}
+.but-radio-but {
+  width: 100%;
+  height: 46px;
+  border-width: 0px;
+  background-color: #6c25ff;
+  font-family: Rubik;
+  font-size: 16px;
+  color: white;
+  border-radius: 7px;
+  font-weight: 500;
+}
+@media (min-width: 420px) {
+  .sign-in-sub-bg {
+    width: 375px;
+  }
+}
